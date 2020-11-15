@@ -79,6 +79,7 @@ body{
 }
 .m-m{
     margin-top: 45rem;
+    margin-bottom: 24rem;
 }
 .display-0{
     font-size: 9rem;
@@ -161,7 +162,12 @@ body{
     flex: 1 0 62% !important;
     margin: auto 0 !important;
     }
-
+  .png2 img {
+        height: 287px !important;
+        max-width: 34% !important;
+        flex: 0 0 60% !important;
+        margin: auto 0 !important;
+    }
   @media (min-width: 576px) and (max-width: 767.98px) {
     .slide-box img {
       -ms-flex: 0 0 50%;
@@ -193,4 +199,30 @@ body{
     padding: 20px;
     border-radius: .5rem;
   }
-  
+.ping{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.ping img{
+    width: auto;
+    height: 345px;
+    margin: 0 34px;
+}
+
+.green-sc{
+    background-color: #3EAE9A;
+    text-align: center;
+    height: 100%;
+}
+.green-sc-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.green-sc-text{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 96px;
+    color: black;
+}
