@@ -77,6 +77,36 @@ body{
     filter: blur(4px);
     transform: rotate(76.18deg);
 }
+.square-6{
+    position: absolute;
+    width: 194.82px;
+    height: 261.36px;
+    left: -157.32px;
+    top: 191rem;
+    background: linear-gradient(90deg, #20E3B2 0%, #12BDBD 100%);
+    filter: blur(4px);
+    transform: rotate(76.18deg);
+}
+.square-7{
+    position: absolute;
+    width: 106.19px;
+    height: 108.03px;
+    left: 45rem;
+    top: 225rem;
+    background: linear-gradient(90deg, #20E3B2 0%, #12BDBD 100%);
+    filter: blur(1px);
+    transform: rotate(117.92deg);
+}
+.square-8{
+    position: absolute;
+    width: 181.79px;
+    height: 185.64px;
+    left: 6rem;
+    top: 252rem;
+    background: linear-gradient(90deg, #20E3B2 0%, #12BDBD 100%);
+    filter: blur(4px);
+    transform: rotate(40.69deg);
+}
 .m-m{
     margin-top: 45rem;
     margin-bottom: 24rem;
@@ -105,6 +135,13 @@ body{
     font-weight: 700;
     padding: .5rem 20px;
     box-shadow: 0 0 15px 0px #18ceb9;
+}
+.btn-class{
+    color: white;
+    border-radius: 29px;
+    border-color: #3eae9a;
+    margin-left: 2rem;
+    margin-top: 1rem;
 }
 .btn-menu{
     border: none !important;
@@ -226,3 +263,84 @@ body{
     font-size: 96px;
     color: black;
 }
+.greeny{
+    color: #3EAE9A;
+}
+.logo-down{
+    width: 100%;
+}
+.pp{
+    display: block;
+    margin: auto 0;
+    padding: 13rem 2rem 0;
+    white-space: pre-line;
+}
+section.wwd{
+    padding-top: 35rem;
+    text-align: center;
+}
+.wwd h2{
+    font-weight: bold;
+}
+.wwd-li{
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: x-large;
+    border-left: 6px solid;
+    padding-left: 19px;
+    text-align: left;
+    border-color: #1bd6b6;
+    list-style: none;
+}
+
+
+footer{
+    background-color: #131318;
+    padding: 6rem;
+}
+.footer-li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-ul{
+    text-align: left;
+    margin: 0 10.5rem;
+}
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
